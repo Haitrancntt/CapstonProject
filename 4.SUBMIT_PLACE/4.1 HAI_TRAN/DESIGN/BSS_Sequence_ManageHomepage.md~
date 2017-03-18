@@ -2308,7 +2308,7 @@
 			    location   	(2550, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	306
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -2316,7 +2316,7 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"58A2838D030D"
-			width      	229
+			width      	318
 			height     	1620
 			icon_height 	153
 			icon_width 	229
@@ -2442,7 +2442,7 @@
 			    quidu      	"58A2838503AF"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	435
+			    max_width  	434
 			    justify    	0
 			    label      	
 |\\Click "Edit" button()
@@ -2768,7 +2768,7 @@
 			    quidu      	"58A283DB028B"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	444
+			    max_width  	441
 			    justify    	0
 			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
@@ -3494,7 +3494,7 @@
 			    location   	(2550, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	651
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -3872,7 +3872,7 @@
 			    quidu      	"58A281500355"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	444
+			    max_width  	441
 			    justify    	0
 			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
@@ -4109,7 +4109,7 @@
 			    location   	(2514, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	651
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -4487,7 +4487,7 @@
 			    quidu      	"58A286E30371"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	444
+			    max_width  	441
 			    justify    	0
 			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000

@@ -4500,7 +4500,7 @@
 			    location   	(2745, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	651
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -5020,7 +5020,7 @@
 			    location   	(2886, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	651
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -5362,7 +5362,7 @@
 			    quidu      	"589C001303AF"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	444
+			    max_width  	441
 			    justify    	0
 			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
@@ -6124,7 +6124,7 @@
 			    location   	(3144, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	306
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -6132,7 +6132,7 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589C0151027D"
-			width      	229
+			width      	318
 			height     	1518
 			icon_height 	153
 			icon_width 	229
@@ -6201,7 +6201,7 @@
 			    quidu      	"589C011A021F"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	459
+			    max_width  	458
 			    justify    	0
 			    label      	"\\\\Click create Banner()"
 			    pctDist    	0.500000
@@ -6281,7 +6281,7 @@
 			    quidu      	"589C011A0222"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	541
+			    max_width  	540
 			    justify    	0
 			    label      	"\\\\Input Banner information()"
 			    pctDist    	0.500000
@@ -6561,7 +6561,7 @@
 			    quidu      	"589C01600228"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	444
+			    max_width  	441
 			    justify    	0
 			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
@@ -6805,7 +6805,7 @@
 			    location   	(2991, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	651
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -7107,7 +7107,7 @@
 			    quidu      	"589C02BF0392"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	478
+			    max_width  	476
 			    justify    	0
 			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
@@ -8154,7 +8154,7 @@
 			    location   	(2973, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	687
+			    max_width  	651
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"

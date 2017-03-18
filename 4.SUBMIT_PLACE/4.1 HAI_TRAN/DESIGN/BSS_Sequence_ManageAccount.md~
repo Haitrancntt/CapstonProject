@@ -114,9 +114,6 @@
 	    (object Class "GUI_ForgerPassword"
 		quid       	"58A03FE703D5"
 		stereotype 	"boundary")
-	    (object Class "GUI_EditAccount"
-		quid       	"58AA72FF0330"
-		stereotype 	"boundary")
 	    (object Mechanism @1
 		logical_models 	(list unit_reference_list
 		    (object Object "$UNNAMED$0"
@@ -2661,8 +2658,7 @@
 					ordinal    	10
 					quidu      	"000000000000"
 					creation   	FALSE))))
-			class      	"Use Case View::GUI_EditAccount"
-			quidu      	"58AA72FF0330"
+			quidu      	"589C11FA0292"
 			persistence 	"Transient"
 			creationObj 	FALSE
 			multi      	FALSE)
@@ -5732,7 +5728,7 @@
 			fill_color 	13434879
 			quidu      	"58A00E7B02B1"
 			width      	120
-			height     	1083
+			height     	1275
 			icon_height 	162
 			icon_width 	120
 			icon_y_offset 	0
@@ -5769,7 +5765,7 @@
 			fill_color 	13434879
 			quidu      	"58A00E7B02B9"
 			width      	229
-			height     	1083
+			height     	1275
 			icon_height 	153
 			icon_width 	229
 			icon_y_offset 	0
@@ -5820,7 +5816,7 @@
 			fill_color 	13434879
 			quidu      	"58A00E7B02C2"
 			width      	157
-			height     	1083
+			height     	1275
 			icon_height 	164
 			icon_width 	157
 			icon_y_offset 	0
@@ -5864,7 +5860,7 @@
 			fill_color 	13434879
 			quidu      	"58A00E7B02CC"
 			width      	154
-			height     	1083
+			height     	1275
 			icon_height 	153
 			icon_width 	154
 			icon_y_offset 	0
@@ -5901,7 +5897,7 @@
 			fill_color 	13434879
 			quidu      	"58A00E870110"
 			width      	229
-			height     	1083
+			height     	1275
 			icon_height 	153
 			icon_width 	229
 			icon_y_offset 	0
@@ -6157,7 +6153,7 @@
 			ordinal    	4)
 		    (object Destruction_Marker @191
 			Parent_View 	@177
-			location   	(3054, 1308)
+			location   	(3054, 1500)
 			line_color 	3342489
 			fill_color 	13434879)
 		    (object InterMessView "\\\\Show error page ()" @192
@@ -13218,7 +13214,7 @@
 			    y_coord    	107
 			    Nested     	FALSE))
 		    (object InterObjView "$UNNAMED$84" @605
-			location   	(1791, 225)
+			location   	(1761, 225)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -13230,67 +13226,67 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@605
-			    location   	(1791, 251)
+			    location   	(1761, 225)
+			    fill_color 	16777215
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	353
+			    max_width  	282
 			    justify    	0
 			    label      	"")
-			icon       	"boundary"
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589FF92E015B"
-			width      	364
+			width      	300
 			height     	1810
-			icon_height 	153
-			icon_width 	229
+			icon_height 	141
+			icon_width 	217
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @606
-			    location   	(1791, 489)
+			    location   	(1761, 489)
 			    line_color 	3342489
 			    InterObjView 	@605
 			    height     	90
 			    y_coord    	0
 			    Nested     	FALSE)
 			Focus_Of_Control 	(object Focus_Of_Control "" @607
-			    location   	(1791, 756)
+			    location   	(1761, 756)
 			    line_color 	3342489
 			    InterObjView 	@605
 			    height     	90
 			    y_coord    	0
 			    Nested     	FALSE)
 			Focus_Of_Control 	(object Focus_Of_Control "" @608
-			    location   	(1791, 1056)
+			    location   	(1761, 1056)
 			    line_color 	3342489
 			    InterObjView 	@605
 			    height     	759
 			    y_coord    	669
 			    Nested     	FALSE)
 			Focus_Of_Control 	(object Focus_Of_Control "" @609
-			    location   	(1791, 1197)
+			    location   	(1761, 1197)
 			    line_color 	3342489
 			    InterObjView 	@605
 			    height     	90
 			    y_coord    	0
 			    Nested     	TRUE)
 			Focus_Of_Control 	(object Focus_Of_Control "" @610
-			    location   	(1791, 1620)
+			    location   	(1761, 1620)
 			    line_color 	3342489
 			    InterObjView 	@605
 			    height     	1
 			    y_coord    	-89
 			    Nested     	TRUE)
 			Focus_Of_Control 	(object Focus_Of_Control "" @611
-			    location   	(1791, 1749)
+			    location   	(1761, 1749)
 			    line_color 	3342489
 			    InterObjView 	@605
 			    height     	196
 			    y_coord    	106
 			    Nested     	TRUE))
 		    (object InterObjView "$UNNAMED$85" @612
-			location   	(2400, 225)
+			location   	(2310, 225)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -13302,7 +13298,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@612
-			    location   	(2400, 250)
+			    location   	(2310, 250)
 			    anchor_loc 	1
 			    nlines     	2
 			    max_width  	471
@@ -13320,14 +13316,14 @@
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @613
-			    location   	(2400, 1305)
+			    location   	(2310, 1305)
 			    line_color 	3342489
 			    InterObjView 	@612
 			    height     	315
 			    y_coord    	225
 			    Nested     	FALSE)
 			Focus_Of_Control 	(object Focus_Of_Control "" @614
-			    location   	(2400, 1515)
+			    location   	(2310, 1515)
 			    line_color 	3342489
 			    InterObjView 	@612
 			    height     	1
@@ -13477,7 +13473,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @623
 			    Parent_View 	@622
-			    location   	(1520, 444)
+			    location   	(1505, 444)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13502,7 +13498,7 @@
 			Focus_Src  	@604
 			Focus_Entry 	@606
 			origin     	(1266, 488)
-			terminus   	(1775, 488)
+			terminus   	(1745, 488)
 			ordinal    	1)
 		    (object InterMessView "\\\\Edit information()" @624
 			location   	(3, 756)
@@ -13517,7 +13513,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @625
 			    Parent_View 	@624
-			    location   	(1117, 709)
+			    location   	(1103, 709)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13530,7 +13526,7 @@
 			    quidu      	"589FF92E0148"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	391
+			    max_width  	392
 			    justify    	0
 			    label      	"\\\\Edit information()"
 			    pctDist    	0.477993
@@ -13542,7 +13538,7 @@
 			Focus_Src  	@601
 			Focus_Entry 	@607
 			origin     	(516, 756)
-			terminus   	(1775, 756)
+			terminus   	(1745, 756)
 			ordinal    	2)
 		    (object InterMessView "\\\\Click button \"Save\"()" @626
 			location   	(3, 1056)
@@ -13557,7 +13553,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @627
 			    Parent_View 	@626
-			    location   	(1145, 1012)
+			    location   	(1130, 1012)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13570,7 +13566,7 @@
 			    quidu      	"589FF92E014A"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	460
+			    max_width  	462
 			    justify    	0
 			    label      	
 |\\Click button "Save"()
@@ -13584,7 +13580,7 @@
 			Focus_Src  	@602
 			Focus_Entry 	@608
 			origin     	(516, 1056)
-			terminus   	(1775, 1056)
+			terminus   	(1745, 1056)
 			ordinal    	3)
 		    (object SelfMessView "\\\\Check valid information()" @628
 			location   	(3, 1173)
@@ -13599,7 +13595,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @629
 			    Parent_View 	@628
-			    location   	(1897, 1129)
+			    location   	(1867, 1129)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13612,7 +13608,7 @@
 			    quidu      	"589FF92E0160"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	563
+			    max_width  	553
 			    justify    	0
 			    label      	"\\\\Check valid information()"
 			    pctDist    	0.500000
@@ -13623,8 +13619,8 @@
 			supplier   	@605
 			Focus_Src  	@608
 			Focus_Entry 	@609
-			origin     	(1822, 1173)
-			terminus   	(1972, 1173)
+			origin     	(1792, 1173)
+			terminus   	(1942, 1173)
 			ordinal    	4)
 		    (object InterMessView "\\\\Get data()" @630
 			location   	(3, 1305)
@@ -13639,7 +13635,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @631
 			    Parent_View 	@630
-			    location   	(2095, 1261)
+			    location   	(2035, 1261)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13663,8 +13659,8 @@
 			supplier   	@612
 			Focus_Src  	@608
 			Focus_Entry 	@613
-			origin     	(1806, 1305)
-			terminus   	(2384, 1305)
+			origin     	(1776, 1305)
+			terminus   	(2294, 1305)
 			ordinal    	5)
 		    (object InterMessView "\\\\Cannot connect to database()" @632
 			location   	(3, 1410)
@@ -13679,7 +13675,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @633
 			    Parent_View 	@632
-			    location   	(2690, 1366)
+			    location   	(2645, 1366)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13703,7 +13699,7 @@
 			supplier   	@615
 			Focus_Src  	@613
 			Focus_Entry 	@616
-			origin     	(2415, 1410)
+			origin     	(2325, 1410)
 			terminus   	(2966, 1410)
 			ordinal    	6)
 		    (object InterMessView "\\\\Return()" @634
@@ -13719,7 +13715,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @635
 			    Parent_View 	@634
-			    location   	(2691, 1471)
+			    location   	(2646, 1471)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13744,7 +13740,7 @@
 			Focus_Src  	@616
 			Focus_Entry 	@614
 			origin     	(2966, 1515)
-			terminus   	(2416, 1515)
+			terminus   	(2326, 1515)
 			ordinal    	7)
 		    (object InterMessView "\\\\Return()" @636
 			location   	(3, 1620)
@@ -13759,7 +13755,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @637
 			    Parent_View 	@636
-			    location   	(2096, 1576)
+			    location   	(2036, 1576)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13772,7 +13768,7 @@
 			    quidu      	"589FF92E015E"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	301
+			    max_width  	291
 			    justify    	0
 			    label      	"\\\\Return()"
 			    pctDist    	0.500000
@@ -13783,8 +13779,8 @@
 			supplier   	@605
 			Focus_Src  	@613
 			Focus_Entry 	@610
-			origin     	(2384, 1620)
-			terminus   	(1807, 1620)
+			origin     	(2294, 1620)
+			terminus   	(1777, 1620)
 			ordinal    	8)
 		    (object SelfMessView "\\\\System notifies:\"Cannot connect to database, please try again later\"()" @638
 			location   	(3, 1725)
@@ -13799,7 +13795,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @639
 			    Parent_View 	@638
-			    location   	(1897, 1681)
+			    location   	(1867, 1681)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13812,7 +13808,7 @@
 			    quidu      	"589FF92E0161"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	1395
+			    max_width  	1385
 			    justify    	0
 			    label      	
 |\\System notifies:"Cannot connect to database, please try again later"()
@@ -13825,8 +13821,8 @@
 			supplier   	@605
 			Focus_Src  	@608
 			Focus_Entry 	@611
-			origin     	(1822, 1725)
-			terminus   	(1972, 1725)
+			origin     	(1792, 1725)
+			terminus   	(1942, 1725)
 			ordinal    	9)
 		    (object Destruction_Marker @640
 			Parent_View 	@617
@@ -13846,7 +13842,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @642
 			    Parent_View 	@641
-			    location   	(2669, 1811)
+			    location   	(2654, 1811)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -13870,7 +13866,7 @@
 			supplier   	@617
 			Focus_Src  	@611
 			Focus_Entry 	@618
-			origin     	(1821, 1855)
+			origin     	(1791, 1855)
 			terminus   	(3518, 1855)
 			ordinal    	10)))
 	    (object InteractionDiagram "ManageAccount_ForgetPassword_B"

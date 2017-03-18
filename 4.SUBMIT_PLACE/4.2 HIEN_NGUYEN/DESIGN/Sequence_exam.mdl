@@ -2,7 +2,7 @@
 (object Petal
     version    	50
     _written   	"Rose 2006.0.0.060314"
-    charSet    	163)
+    charSet    	0)
 
 (object Design "Logical View"
     is_unit    	TRUE
@@ -93,7 +93,7 @@
 	    (object Class "GUI_ViewPoint"
 		quid       	"589D2F39010C"
 		stereotype 	"boundary")
-	    (object Class "Error 404 page"
+	    (object Class "GUI_ErrorPage"
 		quid       	"589D366101B1"
 		stereotype 	"boundary")
 	    (object Class "GUI_ViewIndPoint"
@@ -283,7 +283,7 @@
 				supplier   	"$UNNAMED$7"
 				quidu      	"589D3679021F"
 				messages   	(list Messages
-				    (object Message "\\\\Show error 404 page()"
+				    (object Message "\\\\Show error page ()"
 					quid       	"589D368500A5"
 					frequency  	"Aperiodic"
 					synchronization 	"Simple"
@@ -343,7 +343,7 @@
 			multi      	FALSE)
 		    (object Object "$UNNAMED$7"
 			quid       	"589D3679021F"
-			class      	"Use Case View::Error 404 page"
+			class      	"Use Case View::GUI_ErrorPage"
 			quidu      	"589D366101B1"
 			persistence 	"Transient"
 			creationObj 	FALSE
@@ -514,7 +514,7 @@
 				supplier   	"$UNNAMED$16"
 				quidu      	"589D3B50011A"
 				messages   	(list Messages
-				    (object Message "\\\\show error 404 page()"
+				    (object Message "\\\\Show error page ()"
 					quid       	"589D3B6300FA"
 					frequency  	"Aperiodic"
 					synchronization 	"Simple"
@@ -568,7 +568,7 @@
 			multi      	FALSE)
 		    (object Object "$UNNAMED$16"
 			quid       	"589D3B50011A"
-			class      	"Use Case View::Error 404 page"
+			class      	"Use Case View::GUI_ErrorPage"
 			quidu      	"589D366101B1"
 			persistence 	"Transient"
 			creationObj 	FALSE
@@ -863,7 +863,7 @@
 				supplier   	"$UNNAMED$29"
 				quidu      	"589D44AE0058"
 				messages   	(list Messages
-				    (object Message "\\\\show error 404 page()"
+				    (object Message "\\\\Show error page ()"
 					quid       	"589D44BC0043"
 					frequency  	"Aperiodic"
 					synchronization 	"Simple"
@@ -917,7 +917,7 @@
 			multi      	FALSE)
 		    (object Object "$UNNAMED$29"
 			quid       	"589D44AE0058"
-			class      	"Use Case View::Error 404 page"
+			class      	"Use Case View::GUI_ErrorPage"
 			quidu      	"589D366101B1"
 			persistence 	"Transient"
 			creationObj 	FALSE
@@ -1275,7 +1275,7 @@
 				supplier   	"$UNNAMED$42"
 				quidu      	"589D54B90003"
 				messages   	(list Messages
-				    (object Message "\\\\show error 404 page()"
+				    (object Message "\\\\Show error page ()"
 					quid       	"589D54C201D3"
 					frequency  	"Aperiodic"
 					synchronization 	"Simple"
@@ -1329,7 +1329,7 @@
 			multi      	FALSE)
 		    (object Object "$UNNAMED$42"
 			quid       	"589D54B90003"
-			class      	"Use Case View::Error 404 page"
+			class      	"Use Case View::GUI_ErrorPage"
 			quidu      	"589D366101B1"
 			persistence 	"Transient"
 			creationObj 	FALSE
@@ -1632,7 +1632,7 @@
 				supplier   	"$UNNAMED$51"
 				quidu      	"589D56760152"
 				messages   	(list Messages
-				    (object Message "\\\\show error 404 page()"
+				    (object Message "\\\\Show error page ()"
 					quid       	"589D568F01BF"
 					frequency  	"Aperiodic"
 					synchronization 	"Simple"
@@ -1693,7 +1693,7 @@
 			class      	"Use Case View::BUS_Examination"
 			quidu      	"589D2D6D024A"
 			persistence 	"Transient"
-			creationObj 	FALSE
+			creationObj 	TRUE
 			multi      	FALSE)
 		    (object Object "$UNNAMED$52"
 			quid       	"589D5655018E"
@@ -1704,7 +1704,7 @@
 			multi      	FALSE)
 		    (object Object "$UNNAMED$51"
 			quid       	"589D56760152"
-			class      	"Use Case View::Error 404 page"
+			class      	"Use Case View::GUI_ErrorPage"
 			quidu      	"589D366101B1"
 			persistence 	"Transient"
 			creationObj 	FALSE
@@ -1857,7 +1857,7 @@
 				supplier   	"$UNNAMED$60"
 				quidu      	"589D5C580083"
 				messages   	(list Messages
-				    (object Message "\\\\show error 404 page()"
+				    (object Message "\\\\Show error page ()"
 					quid       	"589D5C5D0293"
 					frequency  	"Aperiodic"
 					synchronization 	"Simple"
@@ -1911,7 +1911,7 @@
 			multi      	FALSE)
 		    (object Object "$UNNAMED$60"
 			quid       	"589D5C580083"
-			class      	"Use Case View::Error 404 page"
+			class      	"Use Case View::GUI_ErrorPage"
 			quidu      	"589D366101B1"
 			persistence 	"Transient"
 			creationObj 	FALSE
@@ -2082,7 +2082,7 @@
 				supplier   	"$UNNAMED$69"
 				quidu      	"589D61E90061"
 				messages   	(list Messages
-				    (object Message "\\\\show error 404 page()"
+				    (object Message "\\\\Show error page ()"
 					quid       	"589D61EE0366"
 					frequency  	"Aperiodic"
 					synchronization 	"Simple"
@@ -2136,7 +2136,7 @@
 			multi      	FALSE)
 		    (object Object "$UNNAMED$69"
 			quid       	"589D61E90061"
-			class      	"Use Case View::Error 404 page"
+			class      	"Use Case View::GUI_ErrorPage"
 			quidu      	"589D366101B1"
 			persistence 	"Transient"
 			creationObj 	FALSE
@@ -3014,7 +3014,7 @@
 			origin     	(2351, 696)
 			terminus   	(1600, 696)
 			ordinal    	3)
-		    (object InterMessView "\\\\Show error 404 page()" @65
+		    (object InterMessView "\\\\Show error page ()" @65
 			location   	(3, 906)
 			font       	(object Font
 			    size       	10
@@ -3040,9 +3040,9 @@
 			    quidu      	"589D368500A5"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	520
+			    max_width  	454
 			    justify    	0
-			    label      	"\\\\Show error 404 page()"
+			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
 			    height     	45
 			    orientation 	0)
@@ -3922,7 +3922,7 @@
 			origin     	(1820, 789)
 			terminus   	(1045, 789)
 			ordinal    	4)
-		    (object InterMessView "\\\\show error 404 page()" @116
+		    (object InterMessView "\\\\Show error page ()" @116
 			location   	(3, 894)
 			font       	(object Font
 			    size       	10
@@ -3948,9 +3948,9 @@
 			    quidu      	"589D3B6300FA"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	501
+			    max_width  	454
 			    justify    	0
-			    label      	"\\\\show error 404 page()"
+			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
 			    height     	45
 			    orientation 	0)
@@ -4881,7 +4881,7 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	12
+		origin_x   	13
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object InterObjView "$UNNAMED$26" @172
@@ -5414,7 +5414,7 @@
 			origin     	(1568, 1131)
 			terminus   	(865, 1131)
 			ordinal    	6)
-		    (object InterMessView "\\\\show error 404 page()" @203
+		    (object InterMessView "\\\\Show error page ()" @203
 			location   	(3, 1236)
 			font       	(object Font
 			    size       	10
@@ -5440,9 +5440,9 @@
 			    quidu      	"589D44BC0043"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	490
+			    max_width  	454
 			    justify    	0
-			    label      	"\\\\show error 404 page()"
+			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
 			    height     	45
 			    orientation 	0)
@@ -6933,7 +6933,7 @@
 			    y_coord    	15
 			    Nested     	FALSE))
 		    (object InterObjView "$UNNAMED$42" @297
-			location   	(2721, 231)
+			location   	(2721, 225)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -6945,7 +6945,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@297
-			    location   	(2721, 257)
+			    location   	(2721, 251)
 			    anchor_loc 	1
 			    nlines     	2
 			    max_width  	687
@@ -7279,7 +7279,7 @@
 			origin     	(1403, 1113)
 			terminus   	(715, 1113)
 			ordinal    	6)
-		    (object InterMessView "\\\\show error 404 page()" @315
+		    (object InterMessView "\\\\Show error page ()" @315
 			location   	(3, 1218)
 			font       	(object Font
 			    size       	10
@@ -7305,9 +7305,9 @@
 			    quidu      	"589D54C201D3"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	516
+			    max_width  	454
 			    justify    	0
-			    label      	"\\\\show error 404 page()"
+			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
 			    height     	45
 			    orientation 	0)
@@ -7321,7 +7321,7 @@
 			ordinal    	7)
 		    (object Destruction_Marker @317
 			Parent_View 	@297
-			location   	(2721, 1374)
+			location   	(2721, 1368)
 			line_color 	3342489
 			fill_color 	13434879)))
 	    (object InteractionDiagram "Sequence_Exam_EditProfile_A3"
@@ -8096,10 +8096,10 @@
 			location   	(699, 2109)
 			line_color 	3342489
 			fill_color 	13434879)))
-	    (object InteractionDiagram "Sequence_Exam_EditProfile_A3"
+	    (object InteractionDiagram "Sequence_Exam_EditProfile_A4"
 		mechanism_ref 	@12
 		quid       	"589D563F02D8"
-		title      	"Sequence_Exam_EditProfile_A3"
+		title      	"Sequence_Exam_EditProfile_A4"
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
@@ -8360,7 +8360,7 @@
 			    y_coord    	15
 			    Nested     	FALSE))
 		    (object InterObjView "$UNNAMED$51" @389
-			location   	(2745, 225)
+			location   	(2529, 234)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -8372,7 +8372,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@389
-			    location   	(2745, 251)
+			    location   	(2529, 260)
 			    anchor_loc 	1
 			    nlines     	2
 			    max_width  	687
@@ -8390,7 +8390,7 @@
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @390
-			    location   	(2745, 2334)
+			    location   	(2529, 2334)
 			    line_color 	3342489
 			    InterObjView 	@389
 			    height     	90
@@ -8482,7 +8482,7 @@
 			    quidu      	"589D5655016D"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	494
+			    max_width  	485
 			    justify    	0
 			    label      	"\\\\input student number()"
 			    pctDist    	0.500000
@@ -8522,7 +8522,7 @@
 			    quidu      	"589D5655016E"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	379
+			    max_width  	370
 			    justify    	0
 			    label      	"\\\\click ok button()"
 			    pctDist    	0.500000
@@ -8762,7 +8762,7 @@
 			    quidu      	"589D5655017B"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	359
+			    max_width  	360
 			    justify    	0
 			    label      	"\\\\load on form()"
 			    pctDist    	0.500000
@@ -8842,7 +8842,7 @@
 			    quidu      	"589D56550170"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	369
+			    max_width  	370
 			    justify    	0
 			    label      	"\\\\click ok button()"
 			    pctDist    	0.500000
@@ -9056,7 +9056,7 @@
 			origin     	(1403, 2229)
 			terminus   	(715, 2229)
 			ordinal    	14)
-		    (object InterMessView "\\\\show error 404 page()" @425
+		    (object InterMessView "\\\\Show error page ()" @425
 			location   	(3, 2334)
 			font       	(object Font
 			    size       	10
@@ -9069,7 +9069,7 @@
 			    default_color 	TRUE)
 			label      	(object SegLabel @426
 			    Parent_View 	@425
-			    location   	(1721, 2290)
+			    location   	(1613, 2290)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -9082,9 +9082,9 @@
 			    quidu      	"589D568F01BF"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	504
+			    max_width  	454
 			    justify    	0
-			    label      	"\\\\show error 404 page()"
+			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
 			    height     	45
 			    orientation 	0)
@@ -9094,11 +9094,11 @@
 			Focus_Src  	@378
 			Focus_Entry 	@390
 			origin     	(714, 2334)
-			terminus   	(2729, 2334)
+			terminus   	(2513, 2334)
 			ordinal    	15)
 		    (object Destruction_Marker @427
 			Parent_View 	@389
-			location   	(2745, 2502)
+			location   	(2529, 2511)
 			line_color 	3342489
 			fill_color 	13434879)))
 	    (object InteractionDiagram "Sequence_Exam_ExpProfile_B"
@@ -9917,7 +9917,7 @@
 			origin     	(1394, 804)
 			terminus   	(688, 804)
 			ordinal    	4)
-		    (object InterMessView "\\\\show error 404 page()" @473
+		    (object InterMessView "\\\\Show error page ()" @473
 			location   	(3, 909)
 			font       	(object Font
 			    size       	10
@@ -9943,9 +9943,9 @@
 			    quidu      	"589D5C5D0293"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	516
+			    max_width  	454
 			    justify    	0
-			    label      	"\\\\show error 404 page()"
+			    label      	"\\\\Show error page ()"
 			    pctDist    	0.499752
 			    height     	43
 			    orientation 	0)
@@ -9988,7 +9988,7 @@
 			    location   	(180, 250)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	324
+			    max_width  	360
 			    justify    	0
 			    label      	"")
 			icon       	"Actor"
@@ -9996,10 +9996,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D6036021F"
-			width      	300
+			width      	120
 			height     	954
-			icon_height 	150
-			icon_width 	108
+			icon_height 	162
+			icon_width 	120
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @477
@@ -10032,7 +10032,7 @@
 			    location   	(624, 254)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	651
+			    max_width  	687
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -10040,10 +10040,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D603D0149"
-			width      	300
+			width      	229
 			height     	951
-			icon_height 	141
-			icon_width 	217
+			icon_height 	153
+			icon_width 	229
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @480
@@ -10083,7 +10083,7 @@
 			    location   	(1263, 250)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	435
+			    max_width  	471
 			    justify    	0
 			    label      	"")
 			icon       	"control"
@@ -10091,10 +10091,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D604100C5"
-			width      	300
+			width      	157
 			height     	954
-			icon_height 	152
-			icon_width 	145
+			icon_height 	164
+			icon_width 	157
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @484
@@ -10127,7 +10127,7 @@
 			    location   	(1770, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	426
+			    max_width  	462
 			    justify    	0
 			    label      	"")
 			icon       	"entity"
@@ -10135,10 +10135,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D6045034E"
-			width      	300
+			width      	154
 			height     	954
-			icon_height 	141
-			icon_width 	142
+			icon_height 	153
+			icon_width 	154
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @487
@@ -10434,7 +10434,7 @@
 			    location   	(180, 250)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	324
+			    max_width  	360
 			    justify    	0
 			    label      	"")
 			icon       	"Actor"
@@ -10442,10 +10442,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D61BF00D3"
-			width      	300
+			width      	120
 			height     	1053
-			icon_height 	150
-			icon_width 	108
+			icon_height 	162
+			icon_width 	120
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @503
@@ -10478,7 +10478,7 @@
 			    location   	(624, 254)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	651
+			    max_width  	687
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -10486,10 +10486,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D61BF00D9"
-			width      	300
+			width      	229
 			height     	1050
-			icon_height 	141
-			icon_width 	217
+			icon_height 	153
+			icon_width 	229
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @506
@@ -10529,7 +10529,7 @@
 			    location   	(1263, 250)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	435
+			    max_width  	471
 			    justify    	0
 			    label      	"")
 			icon       	"control"
@@ -10537,10 +10537,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D61BF00E2"
-			width      	300
+			width      	157
 			height     	1053
-			icon_height 	152
-			icon_width 	145
+			icon_height 	164
+			icon_width 	157
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @510
@@ -10573,7 +10573,7 @@
 			    location   	(1770, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	426
+			    max_width  	462
 			    justify    	0
 			    label      	"")
 			icon       	"entity"
@@ -10581,10 +10581,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D61BF00E8"
-			width      	300
+			width      	154
 			height     	1053
-			icon_height 	141
-			icon_width 	142
+			icon_height 	153
+			icon_width 	154
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @513
@@ -10610,7 +10610,7 @@
 			    location   	(2472, 251)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	651
+			    max_width  	687
 			    justify    	0
 			    label      	"")
 			icon       	"boundary"
@@ -10618,10 +10618,10 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"589D61E90061"
-			width      	300
+			width      	229
 			height     	1026
-			icon_height 	141
-			icon_width 	217
+			icon_height 	153
+			icon_width 	229
 			icon_y_offset 	0
 			annotation 	1
 			Focus_Of_Control 	(object Focus_Of_Control "" @515
@@ -10886,7 +10886,7 @@
 			origin     	(1247, 993)
 			terminus   	(640, 993)
 			ordinal    	5)
-		    (object InterMessView "\\\\show error 404 page()" @529
+		    (object InterMessView "\\\\Show error page ()" @529
 			location   	(3, 1098)
 			font       	(object Font
 			    size       	10
@@ -10912,9 +10912,9 @@
 			    quidu      	"589D61EE0366"
 			    anchor_loc 	1
 			    nlines     	1
-			    max_width  	501
+			    max_width  	444
 			    justify    	0
-			    label      	"\\\\show error 404 page()"
+			    label      	"\\\\Show error page ()"
 			    pctDist    	0.500000
 			    height     	45
 			    orientation 	0)
