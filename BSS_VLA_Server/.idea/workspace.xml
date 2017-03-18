@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d37469c-b08c-4153-ba00-79d5c352f39a" name="Default" comment="">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BSS_Topic.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/DESIGN/BSS_SoftwareArchitecturalProcess_v1.0 .docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week1/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week1/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week1/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week1/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week1/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week1/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week1/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week10/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week10/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week10/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week10/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week10/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week10/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week10/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week11/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week11/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week11/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week11/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week11/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week11/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week11/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week12/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week12/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week12/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week12/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week12/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week12/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week12/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week13/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week13/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week13/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week13/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week13/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week13/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week13/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week14/BSS_EffortLog_HaiTran_Week14.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week14/BSS_EffortLog_HienNguyen_Week14.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week14/BSS_EffortLog_KhoiNguyen_Week14.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week14/BSS_EffortLog_MinhDoan_Week14.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week14/BSS_EffortLog_TaiNguyen_Week14.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week14/BSS_EffortLog_XuanThaiHien_Week14.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week14/BSS_WeeklyReport_Week14.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week15/BSS_EffortLog_HaiTran_Week15.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week15/BSS_EffortLog_HienNguyen_Week15.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week15/BSS_EffortLog_KhoiNguyen_Week15.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week15/BSS_EffortLog_MinhDoan_Week15.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week15/BSS_EffortLog_TaiNguyen_Week15.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week15/BSS_EffortLog_XuanThaiHien_Week15.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week15/BSS_WeeklyReport_Week15.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week16/BSS_EffortLog_HaiTran_Week16.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week16/BSS_EffortLog_HienNguyen_Week16.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week16/BSS_EffortLog_KhoiNguyen_Week16.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week16/BSS_EffortLog_MinhDoan_Week16.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week16/BSS_EffortLog_TaiNguyen_Week16.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week16/BSS_EffortLog_XuanThaiHien_Week16.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week16/BSS_WeeklyReport_Week16.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week2/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week2/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week2/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week2/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week2/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week2/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week2/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week3/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week3/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week3/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week3/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week3/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week3/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week3/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week4/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week4/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week4/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week4/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week4/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week4/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week4/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week5/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week5/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week5/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week5/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week5/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week5/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week5/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week6/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week6/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week6/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week6/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week6/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week6/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week6/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week7/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week7/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week7/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week7/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week7/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week7/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week7/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week8/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week8/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week8/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week8/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week8/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week8/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week8/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week9/BSS_EffortLog_HaiTran_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week9/BSS_EffortLog_HienNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week9/BSS_EffortLog_KhoiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week9/BSS_EffortLog_MinhDoan_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week9/BSS_EffortLog_TaiNguyen_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week9/BSS_EffortLog_XuanThaiHien_Week1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/EFFORT_LOG/Week9/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/KICK_OFF/BSS_ProjectCharter_V1.0.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/KICK_OFF/BSS_Teamrule_V1.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/CUSTOMER/BSS_CustomerMeetingMinute_01.11.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/CUSTOMER/BSS_CustomerMeetingMinute_14.11.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/CUSTOMER/BSS_CustomerMeetingMinute_27.10.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/CUSTOMER/BSS_CustomerMeetingMinute_30.11.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/CUSTOMER/BSS_CustomerMeetingMinute_9.12.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinute_10.10.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinute_17.10.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinute_21.10.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinute_21.11.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinute_24.10.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinute_8.11.2016.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinutes_06.01.2017.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinutes_08.02.2017.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinutes_16.02.2017.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/MEETING_MINUTES/MENTOR/BSS_MentorMeetingMinutes_20.02.2017.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_ChangeManagementPlan_V1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_ChangeRequestForm_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_CommunicationManagementPlan_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_ConfigurationManagementPlan_V1.3.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_ImplementationProcess_v1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_MasterPlan_OverView_v1.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_MasterPlan_V1.0 (1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_RiskList_V1.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_RiskManagementPlan_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_SoftwareArchitecturalProcess_v1.0 .docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_SoftwareDevelopmentProcess_v1.1 .docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_SoftwareMearsurementProcess_V1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_SoftwareProcessLifeCycle_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_SoftwareRequirementProcess_V1.3.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/BSS_TestPlan_v1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/PROCESS/History data/BSS_SoftwareMearsurementProcess.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DELIVERABLE/TASK_ASSIGN/BSS_TaskAssign.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../REFERENCE/218688383-PSP-a-Self-Improvement-Process-for-Software-Engineers.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../REFERENCE/A-Practical-Introduction-to-Hardware-Software-Codesign-bok-3A978-1-4614-3737-6.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../REFERENCE/An-Architecture-for-SCADA-Network-Forensics-chp-3A10.1007-2F0-387-36891-4_22.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../REFERENCE/Auerbach.Publications.Architecting.Software.Intensive.Systems.A.Practitioners.Guide.Nov.2008.eBook-DDU.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../REFERENCE/PMBOK4th.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../REFERENCE/Session pri_backup in tomcat-apache_OK.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../REFERENCE/SessionListener.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/CODE/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/DESIGN/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/KICK_OFF/BSS_MasterPlan_OverView_v1.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/KICK_OFF/BSS_MasterPlan_v1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/KICK_OFF/BSS_WBS_V2.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/KICK_OFF/HaiTran_SWOT.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/KICK_OFF/Property_Topic.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/KICK_OFF/SWOT_Technology_HaiTran.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/PLANNING/BSS_Schedule_V1.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/PLANNING/planning.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/BSS_ListOfUsecaseDescriptions_V1.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/BSS_SoftwareRequirementProcess_v1.0 (1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/BSS_UsecaseDescriptions_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ChangeLanguages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ChangeLanguages.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageAccount(ad).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageAccount(admin).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageAccount(an).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageAccount(an).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageBanner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageBanner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageCate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageCate.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageExamination.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageExamination.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageHomePage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageHomePage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageNews(ad).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageNews(ad).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageNews(an).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageNews(an).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManagePopus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManagePopus.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageQ&amp;A.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/ManageQ&amp;A.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/REQUIREMENT/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HAI_TRAN/TEST/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/CODE/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/DESIGN/Architect process (final).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/DESIGN/Architect process (final).xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/DESIGN/dynamic lv0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/DESIGN/dynamic lv01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/DESIGN/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/KICK_OFF/HienNguyen-Process decision.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/KICK_OFF/HienNguyen-PropertyOfTopic.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/KICK_OFF/HienNguyen-SWOT.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/KICK_OFF/HienNguyen-Tool SWOT.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/PLANNING/BSS_ImplementationProcess_v1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/PLANNING/BSS_SoftwareArchitecturalProcess_v1.1 .docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/REQUIREMENT/PostFLow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/REQUIREMENT/PostFlow.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/REQUIREMENT/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/HIEN_NGUYEN/TEST/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/CODE/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/DESIGN/BSS_QualityScenario_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/DESIGN/BSS_QualityScenario_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/DESIGN/Physical View Draft.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/DESIGN/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/PLANNING/BSS_ConfigurationManagementPlan_V1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/PLANNING/BSS_ConfigurationManagementPlan_V1.3.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/PLANNING/BSS_ConfigurationManagementPlan_V1.4.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/PLANNING/BSS_ConfigurationManagementPlan_v1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/PLANNING/BSS_ConfigurationManagementPlan_v1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/REQUIREMENT/BSS_SRS_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/REQUIREMENT/BSS_SRS_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/REQUIREMENT/BSS_SRS_V1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/REQUIREMENT/BSS_SRS_V1.3.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/REQUIREMENT/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/KHOI_NGUYEN/TEST/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/CODE/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/DESIGN/PhysicalViewBackEnd_Draft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/DESIGN/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/KICK_OFF/IndividualSWOT-MinhDoan.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/KICK_OFF/PropertiesOfTopic_MinhDoan.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/KICK_OFF/SWOTOfTechnology_MinhDoan.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/KICK_OFF/TeamSWOT_MinhDoan.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/BSS_ChangeManagementPlan_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/BSS_ChangeManagementPlan_V1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/BSS_ChangeManagementPlan_V1.3.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/BSS_ChangeRequestForm_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/BSS_ChangeRequestForm_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/BSS_SoftwareRequirementProcess_V1.3.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/Change Management Process_V2.0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/PLANNING/RiskManagementProcess_V2.0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/Assign Requirement Task.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/BSS_ConceptsOfOperation_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/BSS_ConceptsOfOperation_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/BSS_ListOfUsecaseDescriptions_V1.0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/BSS_Vision&amp;Scope_V1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/BSS_Vision&amp;Scope_V2.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/Usecase bổ sung.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/REQUIREMENT/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/MINH_DOAN/TEST/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/CODE/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/DESIGN/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/KICK_OFF/ProcessDecision.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/KICK_OFF/SWOT_Technology_TaiNugyen(1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/KICK_OFF/SWOT_Technology_TaiNugyen.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/KICK_OFF/TaiNguyen_IndividualSWOT.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/KICK_OFF/TeamSWOT_TaiNguyen.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/KICK_OFF/phantichdetai_tainguyen.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/PLANNING/BSS_IncrementalProcess_v1.0(1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/PLANNING/BSS_IncrementalProcess_v1.0.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/PLANNING/BSS_SoftwareArchitecturalProcess_v1.0 .docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/PLANNING/BSS_SoftwareMearsurementProcess_V1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/PLANNING/BSS_SoftwareProcessDecision_v1.0 .docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/REQUIREMENT/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/TAI_NGUYEN/TEST/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/CODE/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/DESIGN/PhysicalViewFrontendt_v1.1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/DESIGN/PhysicalViewFrontendt_v1.2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/DESIGN/PhysicalView_Standalone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/DESIGN/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/KICK_OFF/HienXuan_IndividualSWOT.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/KICK_OFF/HienXuan_TeamSWOT.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/KICK_OFF/Phân tích đề tài.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/KICK_OFF/SWOT_Tech_HienXuanNguyen(1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/KICK_OFF/SWOT_Tech_HienXuanNguyen.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/KICK_OFF/TuyenSinh.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/KICK_OFF/Untitled spreadsheet.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/PLANNING/BSS_ChangeManagementPlan_V1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/PLANNING/BSS_TestPlan_v1.1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/PLANNING/BSS_TestPlan_v1.2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/PLANNING/BSS_TestPlan_v1.3.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/PLANNING/BSS_TestPlan_v1.4.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/PLANNING/Incremental process.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/REQUIREMENT/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SUBMIT_PLACE/XUAN_THAI_HIEN/TEST/upload.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TEMPLATE/BSS_EffortLog_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TEMPLATE/BSS_WeeklyReport_Template.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TRAINING/AngularJS-20161031T062440Z.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TRAINING/BSS_TrainingMongoDBConnect.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TRAINING/BSS_TrainingNodeJS_v1.0 (1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TRAINING/Javascript.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TRAINING/Trainning Plan.doc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Banners.js" />
+>>>>>>> Stashed changes
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Account.js" afterPath="$PROJECT_DIR$/Account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Category.js" afterPath="$PROJECT_DIR$/Category.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/News.js" afterPath="$PROJECT_DIR$/News.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server.js" afterPath="$PROJECT_DIR$/Server.js" />
+<<<<<<< Updated upstream
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+=======
+>>>>>>> Stashed changes
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> Stashed changes
+    </list>
+    <ignored path="BSS_VLA_Server.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BSS_VLA_Server" />
+  </component>
+  <component name="FileEditorManager">
+<<<<<<< Updated upstream
+    <splitter split-orientation="horizontal" split-proportion="0.5304212">
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.4505403">
+>>>>>>> Stashed changes
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Server.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Server.js">
+              <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+                <state relative-caret-position="389">
+=======
+                <state relative-caret-position="390">
+>>>>>>> Stashed changes
+                  <caret line="202" column="49" selection-start-line="202" selection-start-column="49" selection-end-line="202" selection-end-column="49" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+                    <element signature="e#275#333#0" expanded="false" />
+                    <element signature="e#370#396#0" expanded="false" />
+                    <element signature="e#509#598#0" expanded="false" />
+                    <element signature="e#675#810#0" expanded="false" />
+                    <element signature="e#889#1027#0" expanded="false" />
+                    <element signature="e#1102#1237#0" expanded="false" />
+                    <element signature="e#1327#1543#0" expanded="false" />
+                    <element signature="e#1633#1893#0" expanded="false" />
+                    <element signature="e#2062#2143#0" expanded="false" />
+                    <element signature="e#2204#2324#0" expanded="false" />
+                    <element signature="e#2512#2599#0" expanded="false" />
+                    <element signature="e#2676#2769#0" expanded="false" />
+                    <element signature="e#2849#2944#0" expanded="false" />
+                    <element signature="e#3015#3148#0" expanded="false" />
+                    <element signature="e#3223#3354#0" expanded="false" />
+                    <element signature="e#3425#3554#0" expanded="false" />
+                    <element signature="e#3627#3801#0" expanded="false" />
+                    <element signature="e#3885#4072#0" expanded="false" />
+                    <element signature="e#4155#4325#0" expanded="false" />
+                    <element signature="e#4409#4627#0" expanded="false" />
+                    <element signature="e#4732#5036#0" expanded="false" />
+                    <element signature="e#5113#5250#0" expanded="false" />
+                    <element signature="e#5444#5534#0" expanded="false" />
+                    <element signature="e#5602#5738#0" expanded="false" />
+                    <element signature="e#5824#5920#0" expanded="false" />
+                    <element signature="e#6009#6108#0" expanded="false" />
+                    <element signature="e#6186#6283#0" expanded="false" />
+                    <element signature="e#6399#6712#0" expanded="false" />
+                    <element signature="e#6819#7113#0" expanded="false" />
+                    <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+                    <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+                <state relative-caret-position="303">
+                  <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+                    <element signature="e#237#295#0" expanded="false" />
+                    <element signature="e#332#358#0" expanded="false" />
+                    <element signature="e#471#560#0" expanded="false" />
+                    <element signature="e#637#772#0" expanded="false" />
+                    <element signature="e#851#989#0" expanded="false" />
+                    <element signature="e#1064#1199#0" expanded="false" />
+                    <element signature="e#1293#1551#0" expanded="false" />
+                    <element signature="e#1641#1901#0" expanded="false" />
+                    <element signature="e#2079#2160#0" expanded="false" />
+                    <element signature="e#2226#2346#0" expanded="false" />
+                    <element signature="e#2439#2592#0" expanded="false" />
+                    <element signature="e#2718#3180#0" expanded="false" />
+                    <element signature="e#3302#3754#0" expanded="false" />
+                    <element signature="e#3872#4010#0" expanded="false" />
+                    <element signature="e#4114#4290#0" expanded="false" />
+                    <element signature="e#4398#4526#0" expanded="false" />
+                    <element signature="e#4632#4799#0" expanded="false" />
+                    <element signature="e#4897#5023#0" expanded="false" />
+                    <element signature="e#5115#5244#0" expanded="false" />
+                    <element signature="e#5328#5458#0" expanded="false" />
+                    <element signature="e#5658#5751#0" expanded="false" />
+                    <element signature="e#5831#5926#0" expanded="false" />
+                    <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Category.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Category.js">
+              <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+                <state relative-caret-position="51">
+                  <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+                    <element signature="e#232#649#0" expanded="false" />
+                    <element signature="e#695#1110#0" expanded="false" />
+                    <element signature="e#1159#1587#0" expanded="false" />
+                    <element signature="e#1633#2063#0" expanded="false" />
+                    <element signature="e#2120#2848#0" expanded="false" />
+                    <element signature="e#2911#3500#0" expanded="false" />
+                    <element signature="e#3531#3890#0" expanded="false" />
+=======
+                <state relative-caret-position="85">
+                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+                    <element signature="e#303#720#0" expanded="false" />
+                    <element signature="e#766#1181#0" expanded="false" />
+                    <element signature="e#1230#1658#0" expanded="false" />
+                    <element signature="e#1704#2134#0" expanded="false" />
+                    <element signature="e#2195#2772#0" expanded="false" />
+                    <element signature="e#2835#3424#0" expanded="false" />
+>>>>>>> Stashed changes
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="News.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/News.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+<<<<<<< Updated upstream
+                  <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+                    <element signature="e#289#714#0" expanded="false" />
+                    <element signature="e#749#1164#0" expanded="false" />
+=======
+                  <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+                    <element signature="e#341#758#0" expanded="false" />
+                    <element signature="e#852#1297#0" expanded="false" />
+                    <element signature="e#1372#1800#0" expanded="false" />
+                    <element signature="e#1903#2334#0" expanded="false" />
+                    <element signature="e#2492#3266#0" expanded="false" />
+                    <element signature="e#3423#4195#0" expanded="false" />
+                    <element signature="e#4327#4760#0" expanded="false" />
+                    <element signature="e#4862#5421#0" expanded="false" />
+                    <element signature="e#5523#6037#0" expanded="false" />
+                    <element signature="e#6134#6649#0" expanded="false" />
+                    <element signature="e#6753#7272#0" expanded="false" />
+                    <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Account.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Account.js">
+              <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+                <state relative-caret-position="84">
+=======
+                <state relative-caret-position="85">
+>>>>>>> Stashed changes
+                  <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#270#676#0" expanded="false" />
+                    <element signature="e#719#1142#0" expanded="false" />
+                    <element signature="e#1187#1610#0" expanded="false" />
+                    <element signature="e#1655#2070#0" expanded="false" />
+                    <element signature="e#2153#2911#0" expanded="false" />
+                    <element signature="e#2967#3531#0" expanded="false" />
+                    <element signature="e#3574#4013#0" expanded="false" />
+                    <element signature="e#4054#4493#0" expanded="false" />
+                    <element signature="e#4555#5084#0" expanded="false" />
+                    <element signature="e#5137#5795#0" expanded="false" />
+                    <element signature="e#5848#6369#0" expanded="false" />
+                    <element signature="e#6428#7052#0" expanded="false" />
+                    <element signature="e#7083#7442#0" expanded="false" />
+                    <element signature="e#7480#7991#0" expanded="false" />
+                    <element signature="e#8033#8777#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Question.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Question.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+                    <element signature="e#334#740#0" expanded="false" />
+                    <element signature="e#786#1201#0" expanded="false" />
+                    <element signature="e#1248#1668#0" expanded="false" />
+                    <element signature="e#1712#2133#0" expanded="false" />
+                    <element signature="e#2178#2596#0" expanded="false" />
+                    <element signature="e#2681#3485#0" expanded="false" />
+                    <element signature="e#3561#4409#0" expanded="false" />
+                    <element signature="e#4452#4963#0" expanded="false" />
+                    <element signature="e#4995#5354#0" expanded="false" />
+                    <element signature="e#5438#6353#0" expanded="false" />
+=======
+                <state relative-caret-position="51">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#308#731#0" expanded="false" />
+                    <element signature="e#776#1199#0" expanded="false" />
+                    <element signature="e#1243#1658#0" expanded="false" />
+                    <element signature="e#1698#2113#0" expanded="false" />
+>>>>>>> Stashed changes
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+<<<<<<< Updated upstream
+          <file leaf-file-name="Student.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Student.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="false" />
+=======
+          <file leaf-file-name="Banners.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Banners.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#40#0" expanded="false" />
+>>>>>>> Stashed changes
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/Account.js" />
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/News.js" />
+        <option value="$PROJECT_DIR$/Popup.js" />
+        <option value="$PROJECT_DIR$/../../../question.html" />
+        <option value="$PROJECT_DIR$/Category.js" />
+        <option value="$PROJECT_DIR$/Account.js" />
+        <option value="$PROJECT_DIR$/Student.js" />
+        <option value="$PROJECT_DIR$/Server.js" />
+        <option value="$PROJECT_DIR$/Question.js" />
+=======
+        <option value="$PROJECT_DIR$/Account.js" />
+        <option value="$PROJECT_DIR$/Category.js" />
+        <option value="$PROJECT_DIR$/News.js" />
+        <option value="$PROJECT_DIR$/Server.js" />
+        <option value="$PROJECT_DIR$/Banners.js" />
+>>>>>>> Stashed changes
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+<<<<<<< Updated upstream
+    <option name="width" value="1320" />
+=======
+    <option name="width" value="1382" />
+>>>>>>> Stashed changes
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+<<<<<<< Updated upstream
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/nodehero-authentication-master" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> Stashed changes
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HienNguyen\WebstormProjects\BSS_VLA_Server" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d37469c-b08c-4153-ba00-79d5c352f39a" name="Default" comment="" />
+      <created>1488419341642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488419341642</updated>
+      <workItem from="1488419344174" duration="5753000" />
+      <workItem from="1488442789555" duration="1858000" />
+      <workItem from="1488458073193" duration="347000" />
+      <workItem from="1488458735637" duration="65000" />
+      <workItem from="1488505536544" duration="15483000" />
+      <workItem from="1488761469564" duration="4768000" />
+      <workItem from="1488771002542" duration="10852000" />
+      <workItem from="1488808642535" duration="568000" />
+<<<<<<< Updated upstream
+      <workItem from="1488818444878" duration="2190000" />
+      <workItem from="1488858054985" duration="16139000" />
+      <workItem from="1488877537635" duration="1025000" />
+      <workItem from="1488889115716" duration="2744000" />
+      <workItem from="1488938249645" duration="4540000" />
+      <workItem from="1488943830303" duration="14164000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1488818444878" duration="27975000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1488959581961" duration="817000" />
+>>>>>>> Stashed changes
+    </task>
+    <task id="LOCAL-00001" summary="command line">
+      <created>1488854394470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488854394470</updated>
+    </task>
+    <task id="LOCAL-00002" summary="command line cont">
+      <created>1488854610282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488854610282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="80496000" />
+=======
+    <option name="totallyTimeSpent" value="67669000" />
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="81313000" />
+>>>>>>> Stashed changes
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< Updated upstream
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.094383776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3317757" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="20" y="418" width="443" height="331" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
+=======
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16717096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3317757" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="368" y="271" width="634" height="380" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3317757" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="20" y="418" width="443" height="331" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.094383776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="command line" />
+    <MESSAGE value="command line cont" />
+    <option name="LAST_COMMIT_MESSAGE" value="command line cont" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="23" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#334#740#0" expanded="false" />
+            <element signature="e#786#1201#0" expanded="false" />
+            <element signature="e#1248#1668#0" expanded="false" />
+            <element signature="e#1712#2133#0" expanded="false" />
+            <element signature="e#2178#2596#0" expanded="false" />
+            <element signature="e#2681#3485#0" expanded="false" />
+            <element signature="e#3561#4409#0" expanded="false" />
+            <element signature="e#4452#4963#0" expanded="false" />
+            <element signature="e#4995#5354#0" expanded="false" />
+            <element signature="e#5438#6353#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="177" column="31" selection-start-line="177" selection-start-column="31" selection-end-line="177" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#334#740#0" expanded="false" />
+            <element signature="e#786#1201#0" expanded="false" />
+            <element signature="e#1248#1668#0" expanded="false" />
+            <element signature="e#1712#2133#0" expanded="false" />
+            <element signature="e#2178#2596#0" expanded="false" />
+            <element signature="e#2681#3485#0" expanded="false" />
+            <element signature="e#3561#4409#0" expanded="false" />
+            <element signature="e#4452#4963#0" expanded="false" />
+            <element signature="e#4995#5354#0" expanded="false" />
+            <element signature="e#5438#6353#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+=======
+            <element signature="e#303#720#0" expanded="false" />
+            <element signature="e#766#1181#0" expanded="false" />
+            <element signature="e#1230#1658#0" expanded="false" />
+            <element signature="e#1704#2134#0" expanded="false" />
+            <element signature="e#2195#2772#0" expanded="false" />
+            <element signature="e#2835#3424#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+<<<<<<< Updated upstream
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+=======
+            <element signature="e#308#731#0" expanded="false" />
+            <element signature="e#776#1199#0" expanded="false" />
+            <element signature="e#1243#1658#0" expanded="false" />
+            <element signature="e#1698#2113#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+=======
+            <element signature="e#303#720#0" expanded="false" />
+            <element signature="e#766#1181#0" expanded="false" />
+            <element signature="e#1230#1658#0" expanded="false" />
+            <element signature="e#1704#2134#0" expanded="false" />
+            <element signature="e#2195#2772#0" expanded="false" />
+            <element signature="e#2835#3424#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+<<<<<<< Updated upstream
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+=======
+            <element signature="e#308#731#0" expanded="false" />
+            <element signature="e#776#1199#0" expanded="false" />
+            <element signature="e#1243#1658#0" expanded="false" />
+            <element signature="e#1698#2113#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+=======
+            <element signature="e#303#720#0" expanded="false" />
+            <element signature="e#766#1181#0" expanded="false" />
+            <element signature="e#1230#1658#0" expanded="false" />
+            <element signature="e#1704#2134#0" expanded="false" />
+            <element signature="e#2195#2772#0" expanded="false" />
+            <element signature="e#2835#3424#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+=======
+            <element signature="e#303#720#0" expanded="false" />
+            <element signature="e#766#1181#0" expanded="false" />
+            <element signature="e#1230#1658#0" expanded="false" />
+            <element signature="e#1704#2134#0" expanded="false" />
+            <element signature="e#2195#2772#0" expanded="false" />
+            <element signature="e#2835#3424#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+<<<<<<< Updated upstream
+            <marker date="1488958040314" expanded="false" signature="6399:6712" ph="{...}" />
+=======
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+<<<<<<< Updated upstream
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Popup.js" />
+    <entry file="file://$PROJECT_DIR$/../../../question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="202" column="49" selection-start-line="202" selection-start-column="49" selection-end-line="202" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#275#333#0" expanded="false" />
+            <element signature="e#370#396#0" expanded="false" />
+            <element signature="e#509#598#0" expanded="false" />
+            <element signature="e#675#810#0" expanded="false" />
+            <element signature="e#889#1027#0" expanded="false" />
+            <element signature="e#1102#1237#0" expanded="false" />
+            <element signature="e#1327#1543#0" expanded="false" />
+            <element signature="e#1633#1893#0" expanded="false" />
+            <element signature="e#2062#2143#0" expanded="false" />
+            <element signature="e#2204#2324#0" expanded="false" />
+            <element signature="e#2512#2599#0" expanded="false" />
+            <element signature="e#2676#2769#0" expanded="false" />
+            <element signature="e#2849#2944#0" expanded="false" />
+            <element signature="e#3015#3148#0" expanded="false" />
+            <element signature="e#3223#3354#0" expanded="false" />
+            <element signature="e#3425#3554#0" expanded="false" />
+            <element signature="e#3627#3801#0" expanded="false" />
+            <element signature="e#3885#4072#0" expanded="false" />
+            <element signature="e#4155#4325#0" expanded="false" />
+            <element signature="e#4409#4627#0" expanded="false" />
+            <element signature="e#4732#5036#0" expanded="false" />
+            <element signature="e#5113#5250#0" expanded="false" />
+            <element signature="e#5444#5534#0" expanded="false" />
+            <element signature="e#5602#5738#0" expanded="false" />
+            <element signature="e#5824#5920#0" expanded="false" />
+            <element signature="e#6009#6108#0" expanded="false" />
+            <element signature="e#6186#6283#0" expanded="false" />
+            <element signature="e#6399#6712#0" expanded="false" />
+            <element signature="e#6819#7113#0" expanded="false" />
+            <element signature="e#7188#7321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="51">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#232#649#0" expanded="false" />
+            <element signature="e#695#1110#0" expanded="false" />
+            <element signature="e#1159#1587#0" expanded="false" />
+            <element signature="e#1633#2063#0" expanded="false" />
+            <element signature="e#2120#2848#0" expanded="false" />
+            <element signature="e#2911#3500#0" expanded="false" />
+            <element signature="e#3531#3890#0" expanded="false" />
+=======
+        <state relative-caret-position="124">
+          <caret line="1410" column="0" selection-start-line="1410" selection-start-column="0" selection-end-line="1410" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#237#295#0" expanded="false" />
+            <element signature="e#332#358#0" expanded="false" />
+            <element signature="e#471#560#0" expanded="false" />
+            <element signature="e#637#772#0" expanded="false" />
+            <element signature="e#851#989#0" expanded="false" />
+            <element signature="e#1064#1199#0" expanded="false" />
+            <element signature="e#1293#1551#0" expanded="false" />
+            <element signature="e#1641#1901#0" expanded="false" />
+            <element signature="e#2079#2160#0" expanded="false" />
+            <element signature="e#2226#2346#0" expanded="false" />
+            <element signature="e#2439#2592#0" expanded="false" />
+            <element signature="e#2718#3180#0" expanded="false" />
+            <element signature="e#3302#3754#0" expanded="false" />
+            <element signature="e#3872#4010#0" expanded="false" />
+            <element signature="e#4114#4290#0" expanded="false" />
+            <element signature="e#4398#4526#0" expanded="false" />
+            <element signature="e#4632#4799#0" expanded="false" />
+            <element signature="e#4897#5023#0" expanded="false" />
+            <element signature="e#5115#5244#0" expanded="false" />
+            <element signature="e#5328#5458#0" expanded="false" />
+            <element signature="e#5658#5751#0" expanded="false" />
+            <element signature="e#5831#5926#0" expanded="false" />
+            <element signature="e#5997#6130#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+<<<<<<< Updated upstream
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#289#714#0" expanded="false" />
+            <element signature="e#749#1164#0" expanded="false" />
+=======
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#303#720#0" expanded="false" />
+            <element signature="e#766#1181#0" expanded="false" />
+            <element signature="e#1230#1658#0" expanded="false" />
+            <element signature="e#1704#2134#0" expanded="false" />
+            <element signature="e#2195#2772#0" expanded="false" />
+            <element signature="e#2835#3424#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/Account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#270#676#0" expanded="false" />
+            <element signature="e#719#1142#0" expanded="false" />
+            <element signature="e#1187#1610#0" expanded="false" />
+            <element signature="e#1655#2070#0" expanded="false" />
+            <element signature="e#2153#2911#0" expanded="false" />
+            <element signature="e#2967#3531#0" expanded="false" />
+            <element signature="e#3574#4013#0" expanded="false" />
+            <element signature="e#4054#4493#0" expanded="false" />
+            <element signature="e#4555#5084#0" expanded="false" />
+            <element signature="e#5137#5795#0" expanded="false" />
+            <element signature="e#5848#6369#0" expanded="false" />
+            <element signature="e#6428#7052#0" expanded="false" />
+            <element signature="e#7083#7442#0" expanded="false" />
+            <element signature="e#7480#7991#0" expanded="false" />
+            <element signature="e#8033#8777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#334#740#0" expanded="false" />
+            <element signature="e#786#1201#0" expanded="false" />
+            <element signature="e#1248#1668#0" expanded="false" />
+            <element signature="e#1712#2133#0" expanded="false" />
+            <element signature="e#2178#2596#0" expanded="false" />
+            <element signature="e#2681#3485#0" expanded="false" />
+            <element signature="e#3561#4409#0" expanded="false" />
+            <element signature="e#4452#4963#0" expanded="false" />
+            <element signature="e#4995#5354#0" expanded="false" />
+            <element signature="e#5438#6353#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#341#758#0" expanded="false" />
+            <element signature="e#852#1297#0" expanded="false" />
+            <element signature="e#1372#1800#0" expanded="false" />
+            <element signature="e#1903#2334#0" expanded="false" />
+            <element signature="e#2492#3266#0" expanded="false" />
+            <element signature="e#3423#4195#0" expanded="false" />
+            <element signature="e#4327#4760#0" expanded="false" />
+            <element signature="e#4862#5421#0" expanded="false" />
+            <element signature="e#5523#6037#0" expanded="false" />
+            <element signature="e#6134#6649#0" expanded="false" />
+            <element signature="e#6753#7272#0" expanded="false" />
+            <element signature="e#7371#7882#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="119">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+=======
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#308#731#0" expanded="false" />
+            <element signature="e#776#1199#0" expanded="false" />
+            <element signature="e#1243#1658#0" expanded="false" />
+            <element signature="e#1698#2113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
