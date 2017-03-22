@@ -133,8 +133,7 @@ module.exports =
                 })
             }
         })
-    },
-
+    }
 };
 
 var getid = function (cb) {

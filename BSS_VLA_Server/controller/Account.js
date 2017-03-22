@@ -188,8 +188,8 @@ module.exports =
             else {
                 var collection = db.collection(tb);
                 collection.find({
-                    $or: [{accountname: req.body.accountname, password: req.body.password}, {
-                        accountname: req.body.accountname,
+                    $or: [{email: req.body.email, password: req.body.password}, {
+                        email: req.body.email,
                         restorepassword: req.body.password
                     }]
                 }).toArray(function (err, result) {

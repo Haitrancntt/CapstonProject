@@ -20,12 +20,25 @@ module.exports =
         })
     },
 
+    category_selectbyid: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                collection.find({_id: parseInt(req.body.id), active: true}).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
+
     category_selectlv1: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
             if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.find({_id: req.body.id}, {child: 0}).toArray(function (err, result) {
+                collection.find({_id: parseInt(req.body.id)}, {child: 0}).toArray(function (err, result) {
                     db.close();
                     res.send(result);
                 })
@@ -50,36 +63,23 @@ module.exports =
         })
     },
 
-    category_deletelv1: function (req, res) {
+    category_createlv1: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
             if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: req.body.id}, {$set: {active: false}}, function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    category_deletelv2: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                var splitstring = (req.body.id).split('.');
-                collection.updateOne(
-                    {_id: parseInt(splitstring[0]), 'list._id': req.body.id},
-                    {
-                        $set: {
-                            'list.$.active': false
-                        }
-                    }
-                    , function (err, result) {
+                getid(function (err, doc) {
+                    var collection = db.collection(tb);
+                    var name = ignoreSpaces(req.body.name);
+                    collection.insertOne({
+                        _id: doc + 1,
+                        name: req.body.name,
+                        link: unsign(name).toLowerCase(),
+                        active: true
+                    }, function (err, result) {
                         db.close();
                         res.send(result);
                     })
+                });
             }
         })
     },
@@ -118,23 +118,24 @@ module.exports =
         })
     },
 
-    category_createlv1: function (req, res) {
+    category_editlv1: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
             if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
-                getid(function (err, doc) {
-                    var collection = db.collection(tb);
-                    var name = ignoreSpaces(req.body.name);
-                    collection.insertOne({
-                        _id: doc + 1,
-                        name: req.body.name,
-                        link: unsign(name).toLowerCase(),
-                        active: true
-                    }, function (err, result) {
+                var collection = db.collection(tb);
+                var name = ignoreSpaces(req.body.name);
+                collection.updateOne(
+                    {_id: parseInt(req.body.id)},
+                    {
+                        $set: {
+                            name: req.body.name,
+                            link: unsign(name).toLowerCase()
+                        }
+                    }
+                    , function (err, result) {
                         db.close();
                         res.send(result);
                     })
-                });
             }
         })
     },
@@ -147,11 +148,11 @@ module.exports =
                 var splitstring = (req.body.id).split('.');
                 var name = ignoreSpaces(req.body.name);
                 collection.updateOne(
-                    {_id: parseInt(splitstring[0]), 'list._id': req.body.id},
+                    {_id: parseInt(splitstring[0]), 'child._id': req.body.id},
                     {
                         $set: {
-                            'list.$.name': req.body.name,
-                            'list.$.link': unsign(name).toLowerCase()
+                            'child.$.name': req.body.name,
+                            'child.$.link': unsign(name).toLowerCase()
                         }
                     }
                     , function (err, result) {
@@ -162,18 +163,30 @@ module.exports =
         })
     },
 
-    category_editlv1: function (req, res) {
+    category_deletelv1: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
             if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                var name = ignoreSpaces(req.body.name);
+                collection.updateOne({_id: parseInt(req.body.id)}, {$set: {active: false}}, function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
+
+    category_deletelv2: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                var splitstring = (req.body.id).split('.');
                 collection.updateOne(
-                    {_id: req.body.id},
+                    {_id: parseInt(splitstring[0]), 'child._id': req.body.id},
                     {
                         $set: {
-                            name: req.body.name,
-                            link: unsign(name).toLowerCase()
+                            'child.$.active': false
                         }
                     }
                     , function (err, result) {

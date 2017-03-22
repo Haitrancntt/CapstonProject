@@ -1,0 +1,8 @@
+{ 
+    "_id" : NumberInt(1), 
+    "name" : "Nguyen Hoang Anh Tai", 
+    "address" : "45 Nguyen Khac Nhu", 
+    "subject" : "Math", 
+    "point" : "7", 
+    "status" : "1"
+}

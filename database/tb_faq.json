@@ -1,0 +1,9 @@
+{ 
+    "_id" : NumberInt(1), 
+    "question" : "", 
+    "answer" : "", 
+    "answerperson" : "", 
+    "questionowner" : "", 
+    "email" : "check", 
+    "questiontime" : ""
+}

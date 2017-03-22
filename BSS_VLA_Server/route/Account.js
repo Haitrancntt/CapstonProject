@@ -19,11 +19,11 @@ router.post('/create', account.account_create);
 
 router.post('/edit', account.account_edit);
 
-router.post('/changepassword', account.account_changepassword);
+router.post('/deactive', account.account_deactive);
 
 router.post('/active', account.account_active);
 
-router.post('/deactive', account.account_deactive);
+router.post('/changepassword', account.account_changepassword);
 
 router.post('/restorepassword', account.account_restorepassword);
 

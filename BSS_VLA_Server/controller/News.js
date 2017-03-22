@@ -6,238 +6,374 @@ var mongoUrl = 'mongodb://localhost:27017/db_bss_vla';
 var tb = 'tb_news';
 module.exports =
 {
-    //************Select all news*****************
     news_select: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
             if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.find({status: 1}).toArray(function (err, result) {
-                    cb(err, result);
-                    db.close;
+                collection.find().toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
                 })
             }
         })
     },
 
-    /*select news by category
-     **/
-    news_selecttbycategory: function (req, res) {
+    news_user_selectcategory: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)console.log('Unable to connect to MongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
+                var page = req.body.page - 1;
                 var collection = db.collection(tb);
-                collection.find({category: category}, {status: 1}, {draft: 0}).toArray(function (err, result) {
-                    cb(err, result);
-                    db.close;
+                collection.find({
+                    status: true,
+                    draft: false,
+                    post: true,
+                    category: req.body.category
+                }, null, {sort: {postdate: 1}}).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
                 })
             }
         })
     },
 
-    /*select one news with _id
-     **/
-    news_one: function (req, res) {
+    news_user_selectdetail: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.find({_id: id}, {status: 1}).toArray(function (err, result) {
-                    cb(err, result);
-                    db.close;
+                collection.find({
+                    status: true,
+                    draft: false,
+                    post: true,
+                    _id: req.body.id
+                }).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
                 })
             }
         })
     },
 
-    /*select news
-     * select news by owner
-     **/
-    news_selectbyowner: function (req, res) {
+    news_user_selectrecent: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err) console.log('Unable to connect to the mongoDB server.Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
+                var page = req.body.page;
                 var collection = db.collection(tb);
-                collection.find({owner: owner}, {status: 1}).toArray(function (err, result) {
-                    cb(err, result);
-                    db.close;
+                collection.find({status: true, draft: false, post: true}, null, {
+                    sort: {postdate: 1}
+                }).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
                 })
             }
         })
     },
 
-    /*create news
-     * with status:1
-     * draft:1
-     * */
-    news_create: function (req, res) {
+    news_user_selectrelate: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.insertOne({
-                    _id: id,
-                    title: title,
-                    shortbrief: des,
-                    content: content,
-                    owner: owner,
-                    draft: 1,
-                    link_image: link,
-                    create_day: create_day,
-                    status: 1,
-                    category: category
-                }, function (err, result) {
-                    cb(err, result)
-                    db.close
+                collection.find({
+                    status: true,
+                    draft: false,
+                    post: true,
+                    category: req.body.category,
+                    _id: {$lt: req.body.id}
+                }, null, {
+                    sort: {postdate: 1},
+                    limit: 4
+                }).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
                 })
             }
         })
     },
 
-    /*Edit news
-     * just edit news have draft:1
-     * */
-    news_editbyid: function (req, res) {
+    news_admin_selectnews: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.update({_id: id}, {
-                    $set: {
-                        title: title,
-                        shortbrief: des,
-                        content: content,
-                        owner: owner,
-                        link_image: link,
-                        create_day: create_day,
-                        category: category
+                collection.find({
+                    status: true,
+                    draft: false
+                }, null, {
+                    sort: {createdate: 1}
+                }).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
+
+    news_admin_selectdraft: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                collection.find({
+                        $or: [{
+                            status: true,
+                            draft: true,
+                            tranfer: true
+                        }, {
+                            status: true,
+                            draft: true,
+                            owner: req.body.name
+                        }]
+                    }, null,
+                    {
+                        sort: {
+                            createdate: 1
+                        }
                     }
-                }, function (err, result) {
-                    cb(err, result);
-                    db.close;
+                ).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
                 })
             }
         })
     },
 
-    /*select draft or news
-     * draft => draft :1
-     * news => draft :0
-     * */
-    news_selectdraft: function (req, res) {
+    news_editor_selectdraft: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.find({draft: draft}, {status: 1}).toArray(function (err, result) {
-                    cb(err, result);
-                    db.close;
-                })
-            }
-        })
-    },
-
-    /*post news
-     * change draft 1 =>0
-     * */
-    news_postnews: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: id}, {
-                    $set: {
-                        draft: 0,
-                        post_time: posttime
+                collection.find({
+                        $or: [{
+                            status: true,
+                            draft: true,
+                            tranfer: false,
+                            editor: req.body.name
+                        }, {
+                            status: true,
+                            draft: true,
+                            owner: req.body.name
+                        }]
+                    }, null,
+                    {
+                        sort: {
+                            createdate: 1
+                        }
                     }
-                }, function (err, result) {
-                    cb(err, result);
-                    db.close;
+                ).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
                 })
             }
         })
     },
 
-    /*deactivate news
-     * change status 1 => 0
-     * */
-    news_deactivate: function (req, res) {
+    news_createdraft: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)console.log('Unable to connect to the mongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: id}, {
-                    $set: {
-                        draft: 1
-                    }
-                }, function (err, result) {
-                    cb(err, result);
-                    db.close;
+                getid(function (err, doc) {
+                    var id = doc + 1;
+                    var collection = db.collection(tb);
+                    collection.insertOne({
+                        _id: id,
+                        title: req.body.title,
+                        shortbrief: req.body.shortbrief,
+                        content: req.body.content,
+                        owner: req.body.owner,
+                        createdate: req.body.createdate,
+                        category: req.body.category,
+                        status: true,
+                        draft: true,
+                        post: false,
+                        tranfer: false
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result);
+                    })
                 })
             }
         })
     },
 
-    /*activate news
-     * change status 0 =>1
-     * */
-    news_activate: function (req, res) {
+    news_edit: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)console.log('Unable to connect to the mongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: id}, {
-                    $set: {
-                        status: 1
-                    }
-                }, function (err, result) {
-                    cb(err, result);
-                    db.close;
+                getid(function (err, doc) {
+                    var id = doc + 1;
+                    var collection = db.collection(tb);
+                    collection.updateOne({_id: req.body.id, status: true, post: false}, {
+                        $set: {
+                            title: req.body.title,
+                            shortbrief: req.body.shortbrief,
+                            content: req.body.content,
+                            category: req.body.category
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result);
+                    })
                 })
             }
         })
     },
 
-    /*transfer news
-     * change name of owner
-     **/
-    news_transfer: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: id}, {
-                    $set: {
-                        owner: owner
-                    }
-                }, function (err, result) {
-                    cb(err, result);
-                    db.close;
-
-                })
-            }
-        })
-    },
-
-    /*delete draft
-     * change status 1 => 0
-     **/
     news_deletedraft: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)console.log('Unable to connect to MongoDB server. Error:', err);
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.updateOne({_id: id}, {
-                    $set: {
-                        status: 0
+                collection.updateOne({
+                        $or: [{
+                            _id: req.body.id,
+                            draft: true,
+                            owner: req.body.owner,
+                            editor: null,
+                            tranfer: false
+                        }, {
+                            _id: req.body.id,
+                            draft: true,
+                            owner: req.body.owner,
+                            editor: req.body.owner
+                        }]
+                    }, {
+                        $set: {
+                            status: false
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result)
                     }
-                }, function (err, result) {
-                    cb(err, result);
-                    db.close;
-                })
+                )
+            }
+        })
+    },
+
+    news_deactive: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                collection.updateOne({
+                        _id: req.body.id,
+                        status: true,
+                        draft: false
+                    }, {
+                        $set: {
+                            post: false
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result)
+                    }
+                )
+            }
+        })
+    },
+
+    news_post: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                collection.updateOne({
+                        _id: req.body.id,
+                        status: true,
+                        draft: false
+                    }, {
+                        $set: {
+                            post: true,
+                            postdate: req.body.postdate
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result)
+                    }
+                )
+            }
+        })
+    },
+
+    news_approve: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                collection.updateOne({
+                        _id: req.body.id,
+                        status: true
+                    }, {
+                        $set: {
+                            draft: false
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result)
+                    }
+                )
+            }
+        })
+    },
+
+    news_editor_tranfer: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                collection.updateOne({
+                        _id: req.body.id,
+                        status: true,
+                        draft: true
+                    }, {
+                        $set: {
+                            tranfer: true
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result)
+                    }
+                )
+            }
+        })
+    },
+
+    news_admin_tranfer: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var collection = db.collection(tb);
+                collection.updateOne({
+                        _id: req.body.id,
+                        status: true,
+                        draft: true
+                    }, {
+                        $set: {
+                            tranfer: false,
+                            editor: req.body.editor
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result)
+                    }
+                )
             }
         })
     }
-
 };
 
+var getid = function (cb) {
+    MongoClient.connect(mongoUrl, function (err, db) {
+        if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
+        else {
+            var collection = db.collection(tb);
+            collection.find().count(function (err, result) {
+                db.close();
+                cb(err, result);
+            })
+        }
+    })
+};

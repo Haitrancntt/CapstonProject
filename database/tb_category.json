@@ -1,0 +1,216 @@
+{ 
+    "_id" : NumberInt(1), 
+    "name" : "QUY CHẾ TUYỂN SINH 2017", 
+    "link" : "quyche", 
+    "active" : false
+}
+{ 
+    "_id" : NumberInt(2), 
+    "name" : "THI & XÉT TUYỂN", 
+    "active" : false, 
+    "link" : "thixettuyen"
+}
+{ 
+    "_id" : NumberInt(3), 
+    "name" : "ĐIỂM XÉT TUYỂN", 
+    "link" : "diemxettuyen", 
+    "active" : false
+}
+{ 
+    "_id" : NumberInt(4), 
+    "name" : "ĐIỂM TRÚNG TUYỂN", 
+    "link" : "diemtrungtuyen", 
+    "active" : false
+}
+{ 
+    "_id" : NumberInt(5), 
+    "name" : "CÂU HỎI THƯỜNG GẶP", 
+    "link" : "cauhoithuonggap", 
+    "active" : false
+}
+{ 
+    "_id" : NumberInt(6), 
+    "name" : "Kỳ thi quốc gia", 
+    "link" : "kythiquocgia", 
+    "active" : true, 
+    "child" : [
+        {
+            "_id" : "6.1", 
+            "name" : "Lịch thi", 
+            "link" : "lichthi", 
+            "active" : true
+        }, 
+        {
+            "_id" : "6.2", 
+            "name" : "Cách xét tốt nghiệp", 
+            "link" : "cachxettotnghiep", 
+            "active" : true
+        }, 
+        {
+            "_id" : "6.3", 
+            "name" : "Giấy chứng nhận kết quả thi", 
+            "link" : "giaychungnnhanketquathi", 
+            "active" : true
+        }
+    ]
+}
+{ 
+    "_id" : NumberInt(7), 
+    "name" : "Hồ sơ", 
+    "link" : "hoso", 
+    "active" : true
+}
+{ 
+    "_id" : NumberInt(8), 
+    "name" : "Chỉ tiêu - Lộ trình", 
+    "link" : "chitieulotrinh", 
+    "active" : true, 
+    "child" : [
+        {
+            "_id" : NumberInt(1), 
+            "name" : "Chỉ tiêu", 
+            "link" : "chitieu", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(2), 
+            "name" : "Lộ trình", 
+            "link" : "lotrinh", 
+            "active" : true
+        }
+    ]
+}
+{ 
+    "_id" : NumberInt(9), 
+    "name" : "Ngành nghề", 
+    "link" : "nganhnghe", 
+    "active" : true, 
+    "child" : [
+        {
+            "_id" : NumberInt(1), 
+            "name" : "Kỹ thuật Phần mềm", 
+            "link" : "kythuatphanmem", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(2), 
+            "name" : "Công nghệ Kỹ thuật Môi trường", 
+            "link" : "congnghekythuatmoitruong", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(3), 
+            "name" : "Công nghệ Sinh học", 
+            "link" : "congnghesinhhhoc", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(4), 
+            "name" : "Kỹ thuật Công trình Xây dựng", 
+            "link" : "kythuatcongtrinhxaydung", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(5), 
+            "name" : "Kỹ thuật Nhiệt", 
+            "link" : "kythuatnhiet", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(6), 
+            "name" : "Quản trị Kinh Doanh", 
+            "link" : "quantrikinhdoanh", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(7), 
+            "name" : "Tài chính Ngân hàng", 
+            "link" : "taichinhnganhang", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(8), 
+            "name" : "Kế toán", 
+            "link" : "ketoan", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(9), 
+            "name" : "Quản trị Khách sạn", 
+            "link" : "quantrikhachsan", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(10), 
+            "name" : "Quản trị Dịch vụ Du Lịch và Lữ hành", 
+            "link" : "quantridichvudulichluhanh", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(11), 
+            "name" : "Kinh doanh Thương mại", 
+            "link" : "kinhdoanhthuongmai", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(12), 
+            "name" : "Kiến trúc", 
+            "link" : "kientruc", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(13), 
+            "name" : "Thiết kế Đồ hoạ", 
+            "link" : "thietkedohoa", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(14), 
+            "name" : "Thiết kế Nội thất", 
+            "link" : "thietkynoithat", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(15), 
+            "name" : "Thiết kế Thời trang", 
+            "link" : "thietkethoitrang", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(16), 
+            "name" : "Thiết kế Công nghiệp - Tạo dáng", 
+            "link" : "thietkecongnghieptaodang", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(17), 
+            "name" : "Quan hệ Công chúng", 
+            "link" : "quanhecongchung", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(18), 
+            "name" : "Ngôn ngữ Anh", 
+            "link" : "ngongnuanh", 
+            "active" : true
+        }, 
+        {
+            "_id" : NumberInt(19), 
+            "name" : "Văn học (ứng dụng)", 
+            "link" : "vanhoc", 
+            "active" : true
+        }
+    ]
+}
+{ 
+    "_id" : NumberInt(10), 
+    "name" : "Thi tuyển", 
+    "link" : "thituyen", 
+    "active" : true
+}
+{ 
+    "_id" : NumberInt(11), 
+    "name" : "Xét tuyển", 
+    "link" : "xettuyen", 
+    "active" : true
+}

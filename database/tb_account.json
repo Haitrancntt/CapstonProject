@@ -1,0 +1,35 @@
+{ 
+    "_id" : NumberInt(1), 
+    "fullname" : "Nguyen Thai Hien", 
+    "email" : "hiennguyenthai93@gmail.com", 
+    "password" : "hiennguyen", 
+    "type" : "System Admin", 
+    "restorepassword" : "y4CaOodKuWa", 
+    "statusactive" : false
+}
+{ 
+    "_id" : NumberInt(2), 
+    "fullname" : "Nguyen Hoang Anh Tai", 
+    "email" : "taidienzzz2@gmail.com", 
+    "password" : "tainguyen", 
+    "type" : "Editor", 
+    "restorepassword" : "doj3qoifkF", 
+    "statusactive" : false
+}
+{ 
+    "_id" : NumberInt(3), 
+    "fullname" : "Tran Xuan Hai", 
+    "email" : "haitran2410@gmail.com", 
+    "password" : "hainguyen", 
+    "type" : "Content Admin", 
+    "restorepassword" : "asK3qokuTH", 
+    "statusactive" : false
+}
+{ 
+    "_id" : NumberInt(4), 
+    "fullname" : "Nguyen Anh Khoi", 
+    "email" : "taidienzzz3@gmail.com", 
+    "password" : "V8J3yzswvRf", 
+    "statusactive" : true, 
+    "type" : "Editor"
+}
