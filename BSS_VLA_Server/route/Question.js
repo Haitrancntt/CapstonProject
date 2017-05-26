@@ -6,19 +6,26 @@ var router = express.Router();
 var question = require('../controller/Question');
 
 module.exports = router;
+//-----------User-----------
+router.post('/selectbyides', question.question_selectbyid_es);
 
-router.post('/select',question.question_select);
+router.post('/selectapprove', question.question_selectapprove_es);
 
-router.post('/selectbyid',question.question_selectbyid);
+router.post('/search', question.question_search_es);
 
-router.post('/selectanswer',question.question_selectanswer);
+router.post('/create', question.question_create);
+//-----------End User-----------
 
-router.post('/selectnoanswer',question.question_selectnotanswer);
+//-----------CMS------------
+router.post('/selectbyid', question.question_selectbyid);
 
-router.post('/selectapprove',question.question_selectapprove);
+router.post('/selectanswer', question.question_selectanswer);
 
-router.post('/create',question.question_create);
+router.post('/selectnoanswer', question.question_selectnotanswer);
 
-router.post('/answer',question.question_anwser);
+router.post('/answer', question.question_anwser);
 
-router.post('/approve',question.question_approve);
+router.post('/edit', question.question_edit);
+
+router.post('/approve', question.question_approve_es);
+//-----------End CMS------------

@@ -6,14 +6,12 @@ var router = express.Router();
 var account = require('../controller/Account');
 
 module.exports = router;
-
+//-----------CMS------------
 router.post('/select', account.account_select);
 
 router.post('/selectbyid', account.account_selectbyid);
 
 router.post('/selectactive', account.account_selectactive);
-
-router.post('/selectdeactive', account.account_selectdeactive);
 
 router.post('/create', account.account_create);
 
@@ -30,3 +28,4 @@ router.post('/restorepassword', account.account_restorepassword);
 router.post('/authorize', account.account_authorize);
 
 router.post('/login', account.account_login);
+//-----------End CMS------------

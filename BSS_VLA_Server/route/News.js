@@ -6,22 +6,30 @@ var router = express.Router();
 var news = require('../controller/News');
 
 module.exports = router;
+//-----------User-----------
+router.post('/selectcategory', news.news_selectcategory_es);
 
-router.post('/select', news.news_select);
+router.post('/selectdetail', news.news_selectdetail_es);
 
-router.post('/selectusercategory', news.news_user_selectcategory);
+router.post('/search', news.news_search_es);
 
-router.post('/selectuserdetail', news.news_user_selectdetail);
+router.post('/selectrecent', news.news_selectrecent_es);
 
-router.post('/selectuserrecent', news.news_user_selectrecent);
+router.post('/selectrelate', news.news_selectrelate_es);
+//-----------End User-----------
 
-router.post('/selectuserrelate', news.news_user_selectrelate);
+//-----------CMS------------
+router.post('/selectrevision', news.news_selectrevisionnews);
 
-router.post('/selectadminnews', news.news_admin_selectnews);
+router.post('/selectbyid', news.news_selectbyid);
 
-router.post('/selectadmindraft', news.news_admin_selectdraft);
+router.post('/selectnews', news.news_selectnews);
 
-router.post('/selecteditordraft', news.news_editor_selectdraft);
+router.post('/selectnewsdetail', news.news_selectnewsdetail);
+
+router.post('/selectdraft', news.news_selectdraft);
+
+router.post('/selectdraftdetail', news.news_selectdraftdetail);
 
 router.post('/createdraft', news.news_createdraft);
 
@@ -29,12 +37,15 @@ router.post('/edit', news.news_edit);
 
 router.post('/delete', news.news_deletedraft);
 
-router.post('/post', news.news_post);
+router.post('/post', news.news_post_es);
 
-router.post('/deactive', news.news_deactive);
+router.post('/deactive', news.news_deactive_es);
 
 router.post('/approve', news.news_approve);
 
-router.post('/tranferadmin', news.news_admin_tranfer);
+router.post('/transfer', news.news_tranfer);
 
-router.post('/approveaditor', news.news_editor_tranfer);
+router.post('/push', news.news_push);
+
+router.post('/unpush', news.news_unpush);
+//-----------End CMS------------

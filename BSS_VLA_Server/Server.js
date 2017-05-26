@@ -3,47 +3,57 @@
  */
 var express = require('express');
 var app = express();
+var path = require('path');
 var bodyParser = require('body-parser');
 var accountRouter = require('./route/Account');
 var categoryRouter = require('./route/Category');
 var questionRouter = require('./route/Question');
 var studentRouter = require('./route/Student');
 var newsRouter = require('./route/News');
-var popupRouter = require('./route/Popup');
 var bannerRouter = require('./route/Banner');
+var pictureRouter = require('./route/Picture');
+
+app.use(express.static(__dirname + '/'));
+app.use('/bower_components', express.static(path.join(__dirname, '../bower_components')));
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
 // parse application/json
-app.use(bodyParser.json());
+app.use(bodyParser.json({limit: '50mb'}));
 
 // Add headers
-app.use(function (req, res, next) {
+app.all('*', function (req, res, next) {
 
+    var allowedOrigins = ['http://192.168.137.1:3000', 'http://localhost:3000', 'http://localhost:3001', 'http://localhost:4200', 'http://localhost:3002'];
+    var origin = req.headers.origin;
+    if (allowedOrigins.indexOf(origin) > -1) {
+        res.setHeader('Access-Control-Allow-Origin', origin);
+    }
     // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    //res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
 
     // Request methods you wish to allow
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
 
     // Request headers you wish to allow
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
 
     // Set to true if you need the website to include cookies in the requests sent
     // to the API (e.g. in case you use sessions)
-    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.header('Access-Control-Allow-Credentials', true);
 
     // Pass to next layer of middleware
     next();
 });
 
-app.listen(3000, function () {
+//Listen port 3000
+app.listen(process.env.PORT || 3000, function () {
     console.log('Example app listening on port 3000!')
 });
 
 app.get('/', function (req, res) {
-    res.send('hello');
+    res.send('<h1>Welcome</h1>');
 });
 
 app.use('/account', accountRouter);
@@ -56,6 +66,6 @@ app.use('/student', studentRouter);
 
 app.use('/news', newsRouter);
 
-app.use('/popup', popupRouter);
-
 app.use('/banner', bannerRouter);
+
+app.use('/picture', pictureRouter);

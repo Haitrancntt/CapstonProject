@@ -2,12 +2,14 @@
  * Created by HienNguyen on 06/03/2017.
  */
 var MongoClient = require('mongodb').MongoClient;
-var mongoUrl = 'mongodb://localhost:27017/db_bss_vla';
+var utility = require('../Utility');
+var config = require('../Config');
+var mongoUrl = config.mongourl;
 var tb = 'tb_account';
-var nodemailer = require('nodemailer');
 
 module.exports =
 {
+    /*select all accounts on database*/
     account_select: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
             if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
@@ -21,176 +23,20 @@ module.exports =
         })
     },
 
+    /*select active accounts on database
+     * select statusactive : true */
     account_selectactive: function (req, res) {
         MongoClient.connect(mongoUrl, function (err, db) {
             if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
             else {
                 var collection = db.collection(tb);
-                collection.find({statusactive: true}).toArray(function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_selectdeactive: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.find({statusactive: false}).toArray(function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_selectbyid: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.find({_id: parseInt(req.body.id)}).toArray(function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_create: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                getid(function (err, result) {
-                    var id = result + 1;
-                    var password = generatepassword();
-                    var email = req.body.email;
-                    var collection = db.collection(tb);
-                    collection.insertOne({
-                        _id: id,
-                        fullname: req.body.fullname,
-                        email: req.body.email,
-                        password: password,
-                        statusactive: true
-                    }, function (err, result) {
-                        db.close();
-                        sendemail(email, password);
-                        res.send(result);
-                    })
-                })
-            }
-        })
-    },
-
-    account_edit: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: parseInt(req.body.id)}, {
-                    $set: {
-                        fullname: req.body.fullname,
-                        email: req.body.email
-                    }
-                }, function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_deactive: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: parseInt(req.body.id)}, {$set: {statusactive: false}}, function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_active: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: parseInt(req.body.id)}, {$set: {statusactive: true}}, function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_changepassword: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: parseInt(req.body.id)}, {
-                    $set: {
-                        password: req.params.newpassword
-                    }
-                }, function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_restorepassword: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var restorepassword = generatepassword();
-                var collection = db.collection(tb);
-                collection.updateOne({email: req.body.email}, {
-                    $set: {
-                        restorepassword: restorepassword
-                    }
-                }, function (err, result) {
-                    sendemail(req.body.email, restorepassword);
-                    res.send(result);
-                    db.close();
-                })
-            }
-        })
-    },
-
-    account_authorize: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
-                collection.updateOne({_id: parseInt(req.body.id)}, {
-                    $set: {
-                        type: req.body.newtype
-                    }
-                }, function (err, result) {
-                    db.close();
-                    res.send(result);
-                })
-            }
-        })
-    },
-
-    account_login: function (req, res) {
-        MongoClient.connect(mongoUrl, function (err, db) {
-            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
-            else {
-                var collection = db.collection(tb);
                 collection.find({
-                    $or: [{email: req.body.email, password: req.body.password}, {
-                        email: req.body.email,
-                        restorepassword: req.body.password
+                    $or: [{
+                        type: 'Editor',
+                        statusactive: true
+                    }, {
+                        type: 'Education Staff',
+                        statusactive: true
                     }]
                 }).toArray(function (err, result) {
                     db.close();
@@ -198,52 +44,243 @@ module.exports =
                 })
             }
         })
-    }
-};
+    },
 
-var getid = function (cb) {
-    MongoClient.connect(mongoUrl, function (err, db) {
-        if (err) console.log('Unable to connect to the mongoDB server. Error:', err);
-        else {
-            var collection = db.collection(tb);
-            collection.find().count(function (err, result) {
-                db.close();
-                cb(err, result);
-            })
-        }
-    })
-};
+    /*select an accounts by _id on database
+     * Input: id */
+    account_selectbyid: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var id = req.body.id;
+                var collection = db.collection(tb);
+                collection.find({
+                    _id: parseInt(id)
+                }).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
 
-var generatepassword = function () {
-    var arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
-    var pass = '';
-    var len = arr.length;
-    for (var i = 0; i <= 10; i++) {
-        var n = Math.floor(Math.random() * len);
-        pass = pass + arr[n];
-    }
-    return pass;
-};
+    /*create a new account on database
+     password auto generate
+     Input: email, fullname, phone */
+    account_create: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                utility.getid(tb, function (err, number) {
+                    var id = number + 1;
+                    var fullname = req.body.fullname;
+                    var email = req.body.email;
+                    var phone = req.body.phone;
+                    var password = utility.generatepassword();
+                    var collection = db.collection(tb);
+                    collection.find({
+                        email: email
+                    }).toArray(function (err, result) {
+                        if (result.length != 0) {
+                            db.close();
+                            res.json({result: true});
+                        } else {
+                            collection.insertOne({
+                                _id: id,
+                                fullname: fullname,
+                                email: email,
+                                phone: phone,
+                                password: password,
+                                statusactive: true
+                            }, function (err, result) {
+                                db.close();
+                                utility.sendemailaccount(email, password);
+                                res.json({result: false});
+                            })
+                        }
+                    })
+                })
+            }
+        })
+    },
 
-var sendemail = function (email, pass) {
-    let transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-            user: 'hiennguyenthai93@gmail.com',
-            pass: 'hellohien'
-        }
-    });
-    let mailOptions = {
-        from: '"Van Lang University" <hiennguyenthai93@gmail.com>', // sender address
-        to: email, // list of receivers
-        subject: 'Chao ban da toi Van Lang University', // Subject line
-        text: 'Welcome', // plain text body
-        html: '<b>Mat khau cua ban la ' + pass + '</b>' // html body
-    };
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-            return console.log(error);
-        }
-        console.log('Message %s sent: %s', info.messageId, info.response);
-    });
+    /*edit an account by _id on database
+     edit fullname and phone
+     Input: id, fullname, phone */
+    account_edit: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+                if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+                else {
+                    var id = req.body.id;
+                    var fullname = req.body.fullname;
+                    var phone = req.body.phone;
+                    var collection = db.collection(tb);
+                    collection.updateOne({
+                        _id: parseInt(id)
+                    }, {
+                        $set: {
+                            fullname: fullname,
+                            phone: phone
+                        }
+                    }, function (err, result) {
+                        db.close();
+                        res.send(result);
+                    })
+                }
+            }
+        )
+    },
+
+    /*deactive an account by _id
+     statusactive true => false
+     Input : id */
+    account_deactive: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var id = req.body.id;
+                var collection = db.collection(tb);
+                collection.updateOne({
+                    _id: parseInt(id)
+                }, {
+                    $set: {
+                        statusactive: false
+                    }
+                }, function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
+
+    /*active an account by _id
+     statusactive false => true
+     Input : id */
+    account_active: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var id = req.body.id;
+                var collection = db.collection(tb);
+                collection.updateOne({
+                    _id: parseInt(id)
+                }, {
+                    $set: {
+                        statusactive: true
+                    }
+                }, function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
+
+    /*change password an account by _id on database
+     * Input : id, newpassword */
+    account_changepassword: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var id = req.body.id;
+                var newpassword = req.body.newpassword;
+                var collection = db.collection(tb);
+                collection.updateOne({
+                    _id: parseInt(id)
+                }, {
+                    $set: {
+                        password: newpassword
+                    }
+                }, function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
+
+    /*restore a new password for account on database
+     restore password auto generate
+     Input : email */
+    account_restorepassword: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var restorepassword = utility.generatepassword();
+                var email = req.body.email;
+                var collection = db.collection(tb);
+                collection.find({
+                    email: email
+                }).toArray(function (err, result) {
+                    if (result.length != 0) {
+                        collection.updateOne({
+                            email: email
+                        }, {
+                            $set: {
+                                restorepassword: restorepassword
+                            }
+                        }, function (err, result) {
+                            db.close();
+                            utility.sendemailaccount(email, restorepassword);
+                            res.json({result: true});
+                        });
+                    } else {
+                        db.close();
+                        res.json({result: false});
+                    }
+                })
+            }
+        })
+    },
+
+    /*change type an account by _id on database
+     * Input : id, newtype */
+    account_authorize: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var id = req.body.id;
+                var newtype = req.body.newtype;
+                var collection = db.collection(tb);
+                collection.updateOne({
+                    _id: parseInt(id)
+                }, {
+                    $set: {
+                        type: newtype
+                    }
+                }, function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
+
+    /*login
+     * Input : email, password */
+    account_login: function (req, res) {
+        MongoClient.connect(mongoUrl, function (err, db) {
+            if (err)  console.log('Unable to connect to the mongoDB server. Error:', err);
+            else {
+                var email = req.body.email;
+                var password = req.body.password;
+                var collection = db.collection(tb);
+                collection.find({
+                    $or: [{
+                        email: email,
+                        password: password,
+                        statusactive: true
+                    }, {
+                        email: email,
+                        restorepassword: password,
+                        statusactive: true
+                    }]
+                }).toArray(function (err, result) {
+                    db.close();
+                    res.send(result);
+                })
+            }
+        })
+    },
 };

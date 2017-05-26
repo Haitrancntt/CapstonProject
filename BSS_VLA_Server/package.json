@@ -6,12 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "hien nguyen",
+  "author": "hien thai nguyen",
   "license": "ISC",
   "dependencies": {
+    "cloudinary": "^1.9.0",
+    "connect-multiparty": "^2.0.0",
+    "elasticsearch": "^13.0.1",
     "express": "^4.15.0",
+    "fs": "0.0.1-security",
+    "gm": "^1.23.0",
     "mongodb": "^2.2.24",
+    "multer": "^1.3.0",
     "nodemailer": "^3.1.4",
-    "redis": "^2.6.5"
+    "path": "^0.12.7",
+    "redis": "^2.6.5",
+    "xls-to-json-lc": "^0.3.3",
+    "xlsx-to-json-lc": "^0.2.5"
   }
 }
